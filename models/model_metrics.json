@@ -1,0 +1,61 @@
+{
+  "regressor": {
+    "rmse_mg_dl": 10.57,
+    "mae_mg_dl": 6.25,
+    "r2_score": 0.9176,
+    "clarke_error_grid": {
+      "zone_a_percent": 97.96,
+      "zone_b_percent": 1.81,
+      "zone_c_d_e_percent": 0.22
+    }
+  },
+  "classifier_2h_hyperglycemia_spike": {
+    "roc_auc": 0.9919,
+    "sensitivity_recall": 0.8936,
+    "specificity": 0.9743,
+    "precision": 0.8928,
+    "f1_score": 0.8932
+  },
+  "top_10_features": [
+    {
+      "feature": "sin_time",
+      "importance": 1640
+    },
+    {
+      "feature": "cos_time",
+      "importance": 1249
+    },
+    {
+      "feature": "fasting_glucose",
+      "importance": 812
+    },
+    {
+      "feature": "active_cob",
+      "importance": 721
+    },
+    {
+      "feature": "cgm_t",
+      "importance": 471
+    },
+    {
+      "feature": "cgm_roll_max_1h",
+      "importance": 441
+    },
+    {
+      "feature": "hrv_roll_mean_1h",
+      "importance": 336
+    },
+    {
+      "feature": "cgm_lag_120m",
+      "importance": 320
+    },
+    {
+      "feature": "age",
+      "importance": 291
+    },
+    {
+      "feature": "velocity_60m",
+      "importance": 274
+    }
+  ]
+}
